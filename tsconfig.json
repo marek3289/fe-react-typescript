@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es5",
+    "downlevelIteration": true,
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "jsx": "react",
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "pretty": true,
+    "allowSyntheticDefaultImports": false,
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+  },
+  "include": [
+    "typings",
+    "src"
+  ]
+}

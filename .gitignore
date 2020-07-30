@@ -1,0 +1,11 @@
+dist
+node_modules
+.cache
+*.log
+.DS_Store
+
+.vscode/settings.json
+
+yarn-error.log
+.yarnrc
+yarn.lock

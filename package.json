@@ -1,0 +1,55 @@
+{
+  "name": "codemachine-recruitment-task",
+  "version": "0.2.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development parcel --port 3000 index.html",
+    "build": "cross-env NODE_ENV=production parcel build index.html",
+    "dependencies:update": "npx npm-check --update --save-exact",
+    "tsc": "tsc"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.4.0",
+    "@types/styled-components": "^5.1.1",
+    "assets": "^3.0.1",
+    "axios": "^0.19.2",
+    "intersection-observer": "^0.11.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-redux": "7.2.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "redux": "4.0.5",
+    "redux-saga": "^1.1.3",
+    "src": "^1.1.2",
+    "styled-components": "^5.1.1",
+    "typescript": "3.8.3"
+  },
+  "postcss": {
+    "modules": true,
+    "plugins": {
+      "autoprefixer": {
+        "browsers": [
+          ">5%"
+        ],
+        "flexbox": "no-2009"
+      }
+    }
+  },
+  "devDependencies": {
+    "@types/react": "16.9.34",
+    "@types/react-dom": "16.9.6",
+    "@types/react-redux": "7.1.7",
+    "@types/react-router": "^5.1.8",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/webpack-env": "1.15.1",
+    "autoprefixer": "9.3.1",
+    "cross-env": "5.2.0",
+    "parcel-bundler": "1.12.4",
+    "postcss-modules": "2.0.0"
+  }
+}
